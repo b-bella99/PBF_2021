@@ -24,7 +24,7 @@ class Test extends React.Component{
     this.state = { hello : "World!"};
   }
 
-  componentWillMount(){
+  UNSAFE_componentWillMount(){
     console.log("componentWillMount()");
   }
 
@@ -52,7 +52,7 @@ class Test extends React.Component{
     return true;
   }
 
-  componentWillUpdate(){
+  UNSAFE_componentWillUpdate(){
     console.log("componentWillUpdate()");    
   }
 
