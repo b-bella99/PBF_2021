@@ -1,0 +1,27 @@
+.text-p{
+    text-align: center;
+    color: black;
+}
+
+.text-tpk{
+    text-align: center;
+}
+
+.box{
+    text-align: center;
+    border: 15px solid gray;
+    margin-left: 700px;
+    padding: 30px;
+}
+
+.btn-login{
+    background-color: green;
+    width: 100%;
+}
+
+.btn-cancel{
+    background-color: red;
+}
+.div{
+    text-align: center;
+}
