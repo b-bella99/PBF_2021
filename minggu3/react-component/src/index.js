@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import List from './component/list';
+import HelloComponent from "./component/HelloComponent";
+import Login from "./login";
 
 
 /*const HelloComponent =()=> {
@@ -17,8 +20,10 @@ class StateFullComponent extends Component{
 
 ReactDOM.render(<StateFullComponent/>, document.getElementById('root'));*/
 
+ReactDOM.render(<Login/>, document.getElementById('root'));
+
 //lifeCycle
-class Test extends React.Component{
+/*class Test extends Component{
   constructor(props){
     super(props);
     this.state = { hello : "World!"};
@@ -63,7 +68,7 @@ class Test extends React.Component{
 
 ReactDOM.render(
   <Test/>, document.getElementById('root')
-);
+);*/
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
