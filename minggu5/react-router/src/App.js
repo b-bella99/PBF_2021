@@ -67,13 +67,15 @@ const fakeAuth = {
 
 function AuthButton() {
   let history = useHistory();
-
+  let location = useLocation();
+  
+  let { from } = location.state || { from: { pathname: "/"} };
   return fakeAuth.isAuthenticated ? (
     <p>
       Welcome!{" "}
       <button
       onClick={() => {
-        fakeAuth.signout(() => history.push("/"));
+        fakeAuth.signout(() => history.push(from));
       }}
       >
         Sign Out
