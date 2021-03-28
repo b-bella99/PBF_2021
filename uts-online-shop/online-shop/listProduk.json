@@ -1,0 +1,88 @@
+{
+    "produk": [
+    {
+        "id": 1,
+        "nama": "POLYTRON New Belleza Inverter Side-by-side Ref 550 Litres PRS 550T",
+        "harga": 11099000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/attachment/2021/3/25/-1/-1_8f4ff911-dc2b-412d-af17-225cac2e5911.jpg",
+        "stok": 4
+    },
+    {
+        "id": 2,
+        "nama": "POLYTRON New Belleza Inverter Side-by-side Ref 450 Litres PRS 460B",
+        "harga": 8899000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/34b02228-4d97-4674-9dbd-76c3dc86237d.jpg",
+        "stok": 5
+    },
+    {
+        "id": 3,
+        "nama": "POLYTRON Belleza Big Liter Inverter 2 Doors Ref 350 Litres PRM 491X",
+        "harga": 5049000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/7494454b-0a0b-4d7b-8032-ca819108b190.jpg",
+        "stok": 2
+    },
+    {
+        "id": 4,
+        "nama": "POLYTRON Belleza 2 Doors Refrigerator 210 Litres PRM 21BNR",
+        "harga": 2949000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/08919424-407f-41e3-8796-4ae29db8bb85.jpg",
+        "stok": 7
+    },
+    {
+        "id": 5,
+        "nama": "POLYTRON Belleza 1 Door Refrigerator 150 Litres PRA 15ANR",
+        "harga": 1849000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/f0289ed6-1a7a-4e91-aee3-e4e8105135bf.jpg",
+        "stok": 2
+    },
+    {
+        "id": 6,
+        "nama": "POLYTRON Beauty Metal 1 Door Refrigerator 150 Litres PRB 159B",
+        "harga": 1799000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/attachment/2021/3/25/-1/-1_73807a17-5abe-4b99-928c-f7eef84db89a.jpg",
+        "stok": 7
+    },
+    {
+        "id": 7,
+        "nama": "POLYTRON New Belleza Inverter Side-by-side Ref 550 Litres PRS 560X",
+        "harga": 12099000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/attachment/2021/3/25/-1/-1_e47ab4f4-302d-430d-a4a6-e7ee036f17dd.jpg",
+        "stok": 4
+    },
+    {
+        "id": 8,
+        "nama": "POLYTRON Beauty Metal 2 Doors Refrigerator 210 Litres PRB 219B",
+        "harga": 2649000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/e220ffcc-429d-4007-a099-69163c0a9fea.jpg",
+        "stok": 10
+    },
+    {
+        "id": 9,
+        "nama": "POLYTRON Belleza JUMBO Inverter 2 Doors Ref 220 Litres PRW 23VX",
+        "harga": 3299000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/3c5161c3-1cf2-461c-bc50-f3b8adc601dd.jpg",
+        "stok": 9
+    },
+    {
+        "id": 10,
+        "nama": "POLYTRON Belleza JUMBO Inverter 2 Doors Ref 260 Litres PRW 29VX",
+        "harga": 3799000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/f5508443-2e61-44ca-9b96-4d6791964ecf.jpg",
+        "stok": 10
+    },
+    {
+        "id": 11,
+        "nama": "POLYTRON Belleza Big Liter 2 Doors Refrigerator 350 Litres PRM 490X",
+        "harga": 4749000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/c02df802-b2e2-4f5b-9d36-05a9042d597d.jpg",
+        "stok": 9
+    },
+    {
+        "id": 12,
+        "nama": "POLYTRON Belleza Big Liter Inverter 2 Doors Ref 300 Litres PRM 431X",
+        "harga": 4749000,
+        "gambar": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/3/25/f937d112-0f26-4d31-b372-b93b687fe322.jpg",
+        "stok": 9
+    }
+    ]
+}
