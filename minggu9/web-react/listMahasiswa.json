@@ -1,0 +1,49 @@
+{
+  "mahasiswa": [
+    {
+      "NIM": 1841720003,
+      "id": 1,
+      "nama": "Mayang Muria Cahyaningsih",
+      "alamat": "Jl. Soekarno Hatta No. 9 Malang",
+      "hp": "081802023249",
+      "angkatan": 2018,
+      "status": "Aktif"
+    },
+    {
+      "NIM": 1741720023,
+      "id": 2,
+      "nama": "Sasa Maharani",
+      "alamat": "Jl. Menur No. 9 Surabaya",
+      "hp": "081802023523",
+      "angkatan": 2017,
+      "status": "Aktif"
+    },
+    {
+      "NIM": 1941720023,
+      "id": 3,
+      "nama": "Andrian Cahyo",
+      "alamat": "Jl. Kampung Indah No.7 Malang",
+      "hp": "089088723459",
+      "angkatan": 2019,
+      "status": "Aktif"
+    },
+    {
+      "NIM": 1341720993,
+      "id": 4,
+      "nama": "Didi Mulyadi",
+      "alamat": "Jl. Kebangsaan Timur No.234 Jakarta",
+      "hp": "081802780986",
+      "angkatan": 2017,
+      "status": "Lulus"
+    },
+    {
+      "NIM": 1541720123,
+      "id": 5,
+      "nama": "Pangestu Abadi",
+      "alamat": "Jl. Padi Kuning No.43 Malang",
+      "hp": "081808886777",
+      "angkatan": 2015,
+      "status": "Lulus"
+    }
+  ]
+}
