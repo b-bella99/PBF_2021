@@ -1,5 +1,6 @@
 import React, { useState, useContext } from "react";
 import { AuthContext } from "./index";
+import firebase from "firebase";
 
 const Join = () => {
     const [email, setEmail] = useState("");
@@ -9,8 +10,13 @@ const Join = () => {
     const Auth = useContext(AuthContext);
     const handleForm = e => {
         e.preventDefault();
-        console.log(Auth);
-        Auth.setLoggedIn(true);
+        firebase.auth().createUserWithEmailAndPassword(email, password)
+        .then(res => {
+            if (res.user) Auth.setLoggedIn(true);
+        })
+        .catch(e => {
+            setError(e.message);
+        });
     };
 
     return (
@@ -40,7 +46,7 @@ const Join = () => {
                     />
                     Join With Google
                 </button>
-                <button type="submit">Login</button>
+                <button type="submit">Join</button>
                 <span>{error}</span>
             </form>
         </div>
