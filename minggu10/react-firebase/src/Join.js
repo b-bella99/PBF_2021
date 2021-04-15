@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { AuthContext } from "./index";
 import firebase from "firebase";
+import 'firebase/auth';
 
 const Join = () => {
     const [email, setEmail] = useState("");
@@ -18,6 +19,16 @@ const Join = () => {
             setError(e.message);
         });
     };
+
+    const auth = firebase.auth();
+    const googleProvider = new firebase.auth.GoogleAuthProvider()
+    const signUpWithGoogle = () => {
+        auth.signInWithPopup(googleProvider).then((res) => {
+            if (res.user) Auth.setLoggedIn(true);
+        }).catch(e => {
+            setError(e.message);
+        });
+    }
 
     return (
         <div>
@@ -39,7 +50,7 @@ const Join = () => {
                 placeholder = "Password"
                 />
                 <hr />
-                <button className="googleBtn" type="button">
+                <button className="googleBtn" type="button" onClick ={signUpWithGoogle} >
                     <img
                     src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Google_logo_%282013-2015%29.svg"
                     alt="logo"
