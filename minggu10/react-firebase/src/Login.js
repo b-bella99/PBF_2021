@@ -11,38 +11,49 @@ const Login = () => {
     const handleForm = e => {
         e.preventDefault();
         firebase.auth().signInWithEmailAndPassword(email, password)
-        .then(res => {
+            .then(res => {
+                if (res.user) Auth.setLoggedIn(true);
+            })
+            .catch(e => {
+                setError(e.message);
+            });
+    };
+
+    const auth = firebase.auth();
+    const googleProvider = new firebase.auth.GoogleAuthProvider()
+    const signInWithGoogle = () => {
+        auth.signInWithPopup(googleProvider).then((res) => {
+            console.log(res.user)
             if (res.user) Auth.setLoggedIn(true);
-        })
-        .catch(e => {
+        }).catch(e => {
             setError(e.message);
         });
-    };
+    }
 
     return (
         <div>
             <h1>Login</h1>
-            <form onSubmit = {e => handleForm(e)}>
+            <form onSubmit={e => handleForm(e)}>
                 <input
-                value = {email}
-                onChange = {e => setEmail(e.target.value)}
-                name = "email"
-                type =  "email"
-                placeholder = "E-mail"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
+                    name="email"
+                    type="email"
+                    placeholder="E-mail"
                 />
 
                 <input
-                value = {password}
-                onChange = {e => setPassword(e.target.value)}
-                name = "password"
-                type =  "password"
-                placeholder = "Password"
+                    value={password}
+                    onChange={e => setPassword(e.target.value)}
+                    name="password"
+                    type="password"
+                    placeholder="Password"
                 />
                 <hr />
-                <button className="googleBtn" type="button">
+                <button className="googleBtn" type="button" onClick={signInWithGoogle}>
                     <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Google_logo_%282013-2015%29.svg"
-                    alt="logo"
+                        src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Google_logo_%282013-2015%29.svg"
+                        alt="logo"
                     />
                     Login With Google
                 </button>
