@@ -1,0 +1,18 @@
+.desk {
+    text-align: justify;
+    padding: 2rem 4rem;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+}
+
+.slider{
+    padding: 2rem 4rem;
+    z-index: 1;
+    width: 100%;
+}
+
+p{
+    font-size:13px;
+}
